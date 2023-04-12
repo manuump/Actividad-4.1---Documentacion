@@ -1,3 +1,11 @@
+/**
+ * Esta clase la utilizo para aprender a documentar con javadoc
+ * 
+ * @author Manu Martinez
+ * @version 0.0.2
+ */ 
+
+
 package ies;
 
 public class Empleado {
