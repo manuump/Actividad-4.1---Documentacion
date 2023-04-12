@@ -9,7 +9,7 @@
 /**
  * 
  * @see <a href = "http://www.aprenderaprogramar.com" /> aprenderaprogramar.com – Didáctica en programación </a>
- * 
+ * @see #getPobla() 
  */
 
 
