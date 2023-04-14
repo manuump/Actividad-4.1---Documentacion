@@ -17,7 +17,6 @@ package ies;
 	 * @param pobla: una cadena que representa la población del empleado
 	 * @param oficio: una cadena que representa el puesto de trabajo del empleado
 	 * @param salario: un número decimal que representa el salario del empleado
-	 * @param dept: un objeto de la clase "Departamento" que representa el departamento en el que trabaja el empleado
 	 * 
 	 */
 
@@ -161,7 +160,6 @@ public class Empleado {
 	/**
 	 * Establece el departamento del empleado
 	 * 
-	 * @param dept representa el departamento en el que trabaja el empleado
 	 */
 	public void setDept(Departamento dept) {
 		this.dept = dept;
