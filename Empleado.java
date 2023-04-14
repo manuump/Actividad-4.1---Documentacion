@@ -9,16 +9,6 @@
 
 package ies;
 
-	/**
-	 *
-	 * @param emp_no: un entero que representa el número de empleado
-	 * @param nombre: una cadena que representa el nombre del empleado
-	 * @param apellido: una cadena que representa el apellido del empleado
-	 * @param pobla: una cadena que representa la población del empleado
-	 * @param oficio: una cadena que representa el puesto de trabajo del empleado
-	 * @param salario: un número decimal que representa el salario del empleado
-	 * 
-	 */
 
 public class Empleado {
 	private int emp_no;
@@ -28,10 +18,18 @@ public class Empleado {
 	private String oficio;
 	private Double salario;
 
-	/**
-	 * Constructor para crear un objeto Empleado con todos los atributos especificados.
-	 */
 
+
+	/**
+	 * Constructor 
+	 * 
+	 * @param emp_no un entero que representa el número de empleado
+	 * @param nombre una cadena que representa el nombre del empleado
+	 * @param apellido una cadena que representa el apellido del empleado
+	 * @param pobla una cadena que representa la población del empleado
+	 * @param oficio una cadena que representa el puesto de trabajo del empleado
+	 * @param salario un número decimal que representa el salario del empleado
+	 */
 
 	public Empleado(int emp_no, String nombre, String apellido, String pobla, String oficio,
 			Double salario) {
@@ -46,6 +44,10 @@ public class Empleado {
 	/**
 	 * Constructor para crear un objeto Empleado con algunos atributos especificados y los demás
      * atributos inicializados con valores predeterminados.
+	 * 
+	 * @param emp_no un entero que representa el número de empleado
+	 * @param nombre una cadena que representa el nombre del empleado
+	 * @param salario un número decimal que representa el salario del empleado
 	 */
 	
 	public Empleado(int emp_no, String nombre, Double salario) {
